@@ -1,0 +1,65 @@
+/* App Component */
+app-root {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  /* Search Bar Component */
+  .app-search-bar {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  /* Weather Card Component */
+  .app-weather-card {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .app-weather-card p {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+  .app-weather-card button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+  }
+  .app-weather-card button:hover {
+    background-color: #0056b3;
+  }
+  /* Chart Component */
+  .app-chart {
+    padding: 20px;
+    background-color: #f2f2f2;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  .mat-input-element {
+    border-radius: 4px;
+    background-color: #fff;
+    border: none;
+    padding: 8px 12px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  /* Search Bar Button */
+  .mat-raised-button {
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 4px;
+    padding: 8px 16px;
+    transition: background-color 0.3s;
+  }
+  .mat-raised-button:hover {
+    background-color: #0056b3;
+  }
